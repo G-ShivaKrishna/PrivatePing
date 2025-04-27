@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground">
+
+    <EditText
+        android:id="@+id/roomIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Room ID"
+        android:inputType="text"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <EditText
+        android:id="@+id/secretCodeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Secret Code"
+        android:layout_marginTop="12dp"
+        android:inputType="textPassword"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/joinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Join Chat"
+        android:textColor="?android:textColorPrimaryInverse"
+        app:backgroundTint="?attr/colorPrimary"
+        app:cornerRadius="20dp" />
+</LinearLayout>

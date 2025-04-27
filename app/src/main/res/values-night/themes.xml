@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Privateping" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark Theme -->
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#121212</item>
+        <!-- Add more overrides if needed -->
+    </style>
+</resources>
